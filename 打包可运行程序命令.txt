@@ -1,0 +1,1 @@
+pyinstaller -F -w -i cxk.ico Main.py -p AdminPage.py -p Adminview.py -p UserPage.py -p Userview.py -p linksql.py -p chat_robot.py -p get_photo.py -p xingzuo.py --hidden-import AdminPage --hidden-import UserPage --hidden-import chat_robot --hidden-import linksql --hidden-import Userview --hidden-import Adminview --hidden-import get_photo --hidden-import xingzuo
